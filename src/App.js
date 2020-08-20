@@ -21,7 +21,6 @@ function App() {
       const len = reporters.length;
       for (let i = 0; i < len; i++) {
         let data = await getEntireList(reporters[i]);
-        console.log("Data", data);
         if (data && data.length > 0) {
           reporters = [...reporters, ...data];
         }
