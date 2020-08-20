@@ -1,0 +1,17 @@
+body {
+  padding: 1em;
+  background-color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.App {
+  width: 1000;
+  margin: auto;
+  padding: 150px;
+  color: white;
+}
+
+.subordinates-list {
+  display: flex;
+  flex-direction: column;
+}
